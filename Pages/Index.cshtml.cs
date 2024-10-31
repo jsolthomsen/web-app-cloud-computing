@@ -27,7 +27,7 @@ public class IndexModel : PageModel
         {
             var dto = new WeeklyMenuDTO {
                 UgeDag = entity.RowKey,
-                VarmRet = entity.PartitionKey,
+                VarmRet = entity["VarmRet"].ToString(),
                 KoldRet = entity["KoldRet"].ToString()
             };
             Menu.Add(dto);
