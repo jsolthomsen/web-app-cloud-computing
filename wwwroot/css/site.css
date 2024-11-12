@@ -20,3 +20,66 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf3e1; /* Warm, light background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centered text */
+.text-center {
+  text-align: center;
+  padding: 20px;
+  color: #444;
+}
+
+/* Main Header */
+h1.display-4 {
+  font-size: 2.5rem;
+  color: #ff6f61; /* Warm, vibrant coral */
+  margin-bottom: 10px;
+}
+
+/* Sub Header */
+.lead {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Row Styling */
+th {
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* Body Row Styling */
+td {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  color: #444;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Row Hover Effect */
+tr:hover td {
+  background-color: #ffe5e1; /* Soft coral tint on hover */
+}
